@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Social_Media]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Open Social Media(failed)">
+    <groups>
+      <run>
+        <exclude name="meta"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="org.friday.Friday">
+        <methods>
+          <include name="openYouTube"/>
+          <include name="openTwitter"/>
+          <include name="openLinkedIn"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.friday.Friday -->
+    </classes>
+  </test> <!-- Open Social Media(failed) -->
+</suite> <!-- Failed suite [Social_Media] -->
