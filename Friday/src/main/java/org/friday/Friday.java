@@ -1,19 +1,15 @@
 package org.friday;
 
-import java.util.Arrays;
+import org.testng.annotations.Test;
 
 public class Friday {
-	
-	public static void main(String arg[])
-	{
-	
-int input=6;
-int num=1;
-for(int i=input;i>0;i--)
-{
-	num=num*i;
-}
-System.out.println(num);
-	}
 
+	@Test
+    public void test()
+    {
+        String a = "Here’s the corrected version of your program";
+        String[] b=a.split(" ");
+        System.out.println(b.length);
+        
+    }
 }
